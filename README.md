@@ -21,14 +21,16 @@ O objetivo principal é aplicar conceitos fundamentais de **POO**, **separação
 
 ## 🧱 Estrutura do Projeto
 
+```text
 src/main/java
 └── com.lojaalfa.loja
-├── entidades
-│ └── Order.java
-├── service
-│ ├── OrderService.java
-│ └── ShippingService.java
-└── LojaApplication.java
+    ├── entidades
+    │   └── Order.java
+    ├── service
+    │   ├── OrderService.java
+    │   └── ShippingService.java
+    └── LojaApplication.java
+
 
 
 ### 📦 Entidades
@@ -59,18 +61,21 @@ src/main/java
 
 ---
 
+```md
 ## 🖥️ Exemplo de Saída no Console
 
+```text
 --------- Resultado - Exemplo 1 ---------
 Pedido código: 1034
 Valor Total: R$ 130.00
+
 --------- Resultado - Exemplo 2 ---------
 Pedido código: 2282
 Valor Total: R$ 810.00
+
 --------- Resultado - Exemplo 3 ---------
 Pedido código: 1039
 Valor Total: R$ 95.90
-
 
 ---
 
